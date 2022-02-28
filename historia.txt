@@ -1,2 +1,11 @@
 Essta es una historia muy buena 
 mañana nos enfocaremos en su vida laboral
+git init        
+git add .       
+git commit -m   
+git log         (muestra los cambios)
+git log  --stat (muestra los cambios mas precisos)
+git show 
+git status      (ve donde estamos y lo que hay q hacer)
+git checkout    (llama un archivo o cambia el head)
+git branch      (crea un nuevo head)
