@@ -3,7 +3,10 @@ mañana nos enfocaremos en su vida laboral
 git init        
 git add .       
 git commit -m
-git commit -am  (git add + git comit)   
+git commit -am  (git add + git comit)
+git config -l   (ver confirguracion de git)
+git config --global user.email "email" (cambiar email)
+git config --global user.name "nombre" (cambiar nombre)   
 git log         (muestra los cambios)
 git log  --stat (muestra los cambios mas precisos)
 git show 
@@ -11,4 +14,11 @@ git status      (ve donde estamos y lo que hay q hacer)
 git checkout    (llama un archivo o cambia el head)
 git branch      (crea un nuevo head o rama, indica en q head estas)
 git merge       (unir 2 ramas)
-git remote add origin .... (agregar repositorio remoto)
+git remote add origin "url del repositorio" (agregar repositorio remoto)
+git push origin remote (manda al repositorio remoto Github)
+git pull origin master (jala del repositorio remoto Github)
+--crear llave ssh--
+ssh-keygen -t rsa -b 4096 -C "correo" (Crear llave SSH)
+eval $(ssh-agent -s)   (verificar que la llave este corriendo Windows)
+ssh-add ~/.ssh/id_rsa  (agregar llave privada a nuestro sistema)
+--crear llave ssh--
