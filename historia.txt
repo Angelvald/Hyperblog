@@ -17,8 +17,26 @@ git merge       (unir 2 ramas)
 git remote add origin "url del repositorio" (agregar repositorio remoto)
 git push origin remote (manda al repositorio remoto Github)
 git pull origin master (jala del repositorio remoto Github)
+
 --crear llave ssh--
 ssh-keygen -t rsa -b 4096 -C "correo" (Crear llave SSH)
 eval $(ssh-agent -s)   (verificar que la llave este corriendo Windows)
 ssh-add ~/.ssh/id_rsa  (agregar llave privada a nuestro sistema)
+pegamos la llave publica en github(settings/SSH and GPSkeys)
+copiamos la url ssh de github y...
+git remote set-url "copiamos url"
 --crear llave ssh--
+
+alias arbol="git log --all --graph --decorate --oneline"(histoira mas visual)
+git tag -a nombre -m "elmensaje" (codigodeltag)  (crear tags)
+git push origin --tags            (mandar a github tags)
+git tag                           (ver que tags hay)
+git tag -d dormido                (eliminar un tag)
+git push origin :refs/tags/nombre (mandar agithub que elimine un tag)
+
+
+
+
+
+
+
