@@ -1,19 +1,25 @@
 body {
+    background: white;
     color: blue;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: arial;
     font-size: 16px;
     margin: 0;
     padding: 0;
 }
 
 #cabecera {
-    background-color: rgb(7, 75, 134);
+    background: blue;
     box-shadow: 0px 5px 30px 0px rgb(58, 54, 54);
     color: #ffffff;
     font-weight: bold;
     margin: 0;
-    padding: 0.5em;
+    padding: 0.5em 0 0.5em 2em;
+}
+
+#cabecera #logo{
+    width: 20px;
+    vertical-align: middle;
 }
 
 #cabecera #tagline {
@@ -23,6 +29,7 @@ body {
 }
 
 #container {
+    background: gray;
     width: 70%;
     padding: 1em;
     text-align: left;
@@ -36,5 +43,6 @@ body {
 }
 
 #post {
+    background: white;
     padding: 1em;
 }
