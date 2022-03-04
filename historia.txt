@@ -1,6 +1,7 @@
 Essta es una historia muy buena 
 mañana nos enfocaremos en su vida laboral
 master1
+experimento1
 
 git clone "url" (clonar nuevo repositorio)
 git add .....   (agrgar carpeta la master)
