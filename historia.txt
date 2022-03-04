@@ -6,6 +6,7 @@ experimento1
 experiemento2
 
 master1
+master2
 
 git clone "url" (clonar nuevo repositorio)
 git add .....   (agrgar carpeta la master)
